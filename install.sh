@@ -23,7 +23,8 @@ link() {
     echo "linked: $dst -> $src"
 }
 
-link "$DOTFILES_DIR/.zshrc"          "$HOME/.zshrc"
-link "$DOTFILES_DIR/.config/fish"    "$HOME/.config/fish"
-link "$DOTFILES_DIR/.config/nvim"    "$HOME/.config/nvim"
-link "$DOTFILES_DIR/.config/git"     "$HOME/.config/git"
+link "$DOTFILES_DIR/.zshrc"               "$HOME/.zshrc"
+link "$DOTFILES_DIR/.config/fish"         "$HOME/.config/fish"
+link "$DOTFILES_DIR/.config/nvim"         "$HOME/.config/nvim"
+link "$DOTFILES_DIR/.config/git"          "$HOME/.config/git"
+link "$DOTFILES_DIR/.config/starship.toml" "$HOME/.config/starship.toml"
