@@ -1,7 +1,9 @@
+# font
 font-family = "Hack Nerd Font"
 font-family = "HackGen"
 font-size = 12
 font-feature = -dlig
 adjust-cell-height = 35%
 
+# color theme
 theme = Dracula
